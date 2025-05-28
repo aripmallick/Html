@@ -1,0 +1,32 @@
+.box,.para,.model{
+    border: 2px;
+    border-style: dotted;
+    width: 420px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1,.box2,.box3,.box4,.para1,.para2,.para3,.para4,.model1,.model2,.model3,.model4{
+    width: 100px;
+    height: 100px;
+}
+.box1,.box3,.box4,.para1,.para3,.para4,.model1,.model3,.model4{
+     background-color: rgb(219, 21, 21);
+}
+.box2,.para2,.model2{
+    background-color: rgb(11, 111, 21);
+}
+.para2{
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+.model{
+    position: relative;
+    width: 320px;
+}
+.model2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
