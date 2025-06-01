@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+    <!ELEMENT address (building,street,city)>
+    <!ELEMENT building (#PCDATA)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+]>
+<address>
+    <building>
+        Sweet Plaza
+    </building>
+    <street>Big Bazar</street>
+    <city>Midnapur</city>
+</address>

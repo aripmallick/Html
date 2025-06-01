@@ -1,0 +1,4 @@
+<!ELEMENT adresss (building,street,city)>
+<!ELEMENT building (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>

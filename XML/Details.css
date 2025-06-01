@@ -1,0 +1,13 @@
+building{
+        display: block;
+        color: green;
+        font-size: 44;
+        background-color: red;
+        height: 30px;
+        width: 100px;
+}
+city{
+    display: table;
+    color: red;
+    font-size: 44;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Address SYSTEM "Detailsdoc.dtd">
+<?xml-stylesheet href="Details.css" type="text/css"?>
+<address>
+    <building>
+        Sweet Plaza
+    </building>
+    <street>Big Bazar</street>
+    <city>Midnapur</city>
+</address>
+
+    
