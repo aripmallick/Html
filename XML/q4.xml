@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<university>
+  <department>
+    <dept_name>Computer Science</dept_name>
+    <building>Engineering Hall</building>
+    <budget>1000000</budget>
+  </department>
+  <department>
+    <dept_name>Mathematics</dept_name>
+    <building>Science Block</building>
+    <budget>750000</budget>
+  </department>
+
+  <instructor id="I001">
+    <name>Dr. Smith</name>
+    <dept_name>Computer Science</dept_name>
+  </instructor>
+
+  <instructor id="I002">
+    <name>Dr. Allen</name>
+    <dept_name>Mathematics</dept_name>
+  </instructor>
+
+  <course>
+    <course_id>CSE101</course_id>
+    <title>Intro to Programming</title>
+    <instructor_id ref="I001"/>
+  </course>
+
+  <course>
+    <course_id>MTH102</course_id>
+    <title>Calculus I</title>
+    <instructor_id ref="I002"/>
+  </course>
+</university>
