@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <style>
+        input {
+            border: 2.5px solid black;
+            display: inline-block;
+            
+            background-color: rgb(137, 121, 121);
+            margin: 2px;
+        }
+        .calculator {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(51, 151, 46);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }       
+        .a{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+
+    <form name="f1" class="calculator">
+        <input type="text" name="ans" class="a"><br>
+        <input type="button" value="1" onclick="f1.ans.value +='1'">
+        <input type="button" value="2" onclick="f1.ans.value +='2'">
+        <input type="button" value="3" onclick="f1.ans.value +='3'">
+        <input type="button" value="4" onclick="f1.ans.value +='4'"><br>
+        <input type="button" value="5" onclick="f1.ans.value +='5'">
+        <input type="button" value="6" onclick="f1.ans.value +='6'">
+        <input type="button" value="7" onclick="f1.ans.value +='7'">
+        <input type="button" value="9" onclick="f1.ans.value +='9'"><br>
+        <input type="button" value="8" onclick="f1.ans.value +='8'">
+        <input type="button" value="0" onclick="f1.ans.value +='0'">
+        <input type="button" value="+" onclick="f1.ans.value +='+'">
+        <input type="button" value="-" onclick="f1.ans.value +='-'"><br>
+        <input type="button" value="." onclick="f1.ans.value +='.'">
+        <input type="button" value="/" onclick="f1.ans.value +='/'">
+        <input type="button" value="C" onclick="f1.ans.value = ''">
+        <input type="button" value="=" onclick="f1.ans.value = eval(f1.ans.value)">
+    </form>
+
+</body>
+</html>
